@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="assets/icon/logo-b.svg" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main-style.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/bootstrap-custom.css" />
+    <title>B-Station</title>
+  </head>
+  <body>
+    <!-- ------------------*** Header*** ------------------ -->
+    <header>
+      <nav class="my-navbar">
+        <a href="#" class="nav-branding"
+          ><img src="assets/icon/logo.svg" alt="logo"
+        /></a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="pages/courses.html" class="nav-link">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a href="pages/about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="pages/career.html" class="nav-link">Career</a>
+          </li>
+
+          <li class="nav-item flex-space">
+            <a href="pages/contact.html" class="nav-link">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="pages/login.html" class="nav-link"> Sign in</a>
+          </li>
+          <li class="nav-item">
+            <a href="pages/register.html" class="nav-link"> Sign up</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+    <div style="width: 100%; height: 70px"></div>
+    <!-- ------------------*** main *** ------------------ -->
+    <main>
+      <!-- ------------------*** slider *** ------------------ -->
+      <div class="slider">
+        <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#hero-carousel"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#hero-carousel"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#hero-carousel"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active c-item">
+              <div class="overlay-image cover-2"></div>
+              <div class="container">
+                <h1>Learn, Grow, Succeed: Enroll in Our Expert-Led Courses</h1>
+                <div class="custom-btn">
+                  <a href="#" class="my-btn">Get Started </a>
+                  <a href="#" class="my-btn"> Get free trial </a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item c-item">
+              <div class="overlay-image cover-1"></div>
+              <div class="container">
+                <h1>
+                  Embark on Your Learning Journey with Our Engaging Courses
+                </h1>
+                <div class="custom-btn">
+                  <a href="#" class="my-btn">Get Started </a>
+                  <a href="#" class="my-btn"> Get free trial </a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item c-item">
+              <div class="overlay-image cover-3"></div>
+              <div class="container">
+                <h1>
+                  Empower Yourself with Knowledge: Join Our Cutting-Edge Courses
+                </h1>
+                <div class="custom-btn">
+                  <a href="#" class="my-btn">Get Started </a>
+                  <a href="#" class="my-btn"> Get free trial </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#hero-carousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#hero-carousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- ------------------*** category *** ------------------ -->
+      <section class="category">
+        <div class="margin-cate">
+          <div>Explore courses by category</div>
+          <div>
+            <div class="sub-title">
+              Browse top class courses by browsing our category which will be
+              more easy for you.
+            </div>
+            <a href="#" class="outline-btn inside-btn">All Category</a>
+          </div>
+        </div>
+        <div class="container-cards">
+          <div class="card">
+            <div class="icon-cate">
+              <img src="assets/icon/paintbrush.svg" alt="" />
+            </div>
+            <div>
+              <h6>Design & Development</h6>
+              <p>250+ courses available</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="icon-cate">
+              <img src="assets/icon/volume.svg" alt="" />
+            </div>
+            <div>
+              <h6>Marketing & Communication</h6>
+              <p>300+ courses available</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="icon-cate">
+              <img src="assets/icon/digital.svg" alt="" />
+            </div>
+            <div>
+              <h6>Digital Marketing</h6>
+              <p>150+ courses available</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="icon-cate">
+              <img src="assets/icon/circle-chart.svg" alt="" />
+            </div>
+            <div>
+              <h6>Business & Consulting</h6>
+              <p>170+ courses available</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="icon-cate">
+              <img src="assets/icon/circle-dollar.svg" alt="" />
+            </div>
+            <div>
+              <h6>Finance Management</h6>
+              <p>300+ courses available</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="icon-cate">
+              <img src="assets/icon/user-.svg" alt="" />
+            </div>
+            <div>
+              <h6>Self Development</h6>
+              <p>30+ courses available</p>
+            </div>
+          </div>
+        </div>
+        <div class="outside-btn">
+          <div class="outline-btn">All Category</div>
+        </div>
+      </section>
+      <!-- ------------------*** Students Opinions *** ------------------ -->
+      <section class="students-opinions">
+        <div>What our students are saying about us</div>
+        <div class="sub-title">
+          You learn today and earn tomorrow. The roots ot education are bitter
+          but the fruits are sweet If you learn today you can lead tomorrow. See
+          what our students are saying
+        </div>
+
+        <div class="items">
+          <div class="item">
+            <div>Great platform</div>
+            <div class="opinions">
+              <img src="assets/icon/Quotation-mark.svg" alt="" />
+              <div class="comment">
+                I love using this education platform! The interactive lessons
+                and engaging content have made my learning experience enjoyable
+                and effective. The platform is user-friendly and has helped me
+                improve my skills in Web tremendously.
+              </div>
+            </div>
+            <div class="user">
+              <img src="assets/images/user-1.webp" alt="" />
+              <div class="name-rate">
+                <div class="name">Ahmad</div>
+                <div class="rate">
+                  <img src="assets/icon/star.svg" alt="" />
+                  <img src="assets/icon/star.svg" alt="" />
+                  <img src="assets/icon/star.svg" alt="" />
+                  <img src="assets/icon/star.svg" alt="" />
+                  <img src="assets/icon/star-2.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div>Great platform</div>
+            <div class="opinions">
+              <img src="assets/icon/Quotation-mark.svg" alt="" />
+              <div class="comment">
+                As a student, I find this education platform extremely helpful.
+                The vast library of resources and study materials has been
+                invaluable in preparing for exams and assignments. The
+                platform's features
+              </div>
+            </div>
+            <div class="user">
+              <img src="assets/images/user-4.webp" alt="" />
+              <div class="name-rate">
+                <div class="name">Ali</div>
+                <div class="rate">
+                  <img src="assets/icon/star.svg" alt="" />
+                  <img src="assets/icon/star.svg" alt="" />
+                  <img src="assets/icon/star.svg" alt="" />
+                  <img src="assets/icon/star.svg" alt="" />
+                  <img src="assets/icon/star.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div>Great platform</div>
+            <div class="opinions">
+              <img src="assets/icon/Quotation-mark.svg" alt="" />
+              <div class="comment">
+                I've been using this education platform for a while now, and it
+                has been a game-changer for me. The ability to learn at my own
+                pace and access the platform from anywhere has given me the
+                flexibility I need as a busy student.
+              </div>
+            </div>
+            <div class="user">
+              <img src="assets/images/user-2.webp" alt="" />
+              <div class="name-rate">
+                <div class="name">Jana</div>
+                <div class="rate">
+                  <img src="assets/icon/star.svg" alt="" />
+                  <img src="assets/icon/star.svg" alt="" />
+                  <img src="assets/icon/star.svg" alt="" />
+                  <img src="assets/icon/star.svg" alt="" />
+                  <img src="assets/icon/star-2.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div>Great platform</div>
+            <div class="opinions">
+              <img src="assets/icon/Quotation-mark.svg" alt="" />
+              <div class="comment">
+                I've tried several education platforms, but this one stands out.
+                The platform's practical approach to learning, with real-world
+                examples and case studies, has helped me develop practical
+                skills that I can apply in my future career.
+              </div>
+            </div>
+            <div class="user">
+              <img src="assets/images/user-5.webp" alt="" />
+              <div class="name-rate">
+                <div class="name">Mohammad</div>
+                <div class="rate">
+                  <img src="assets/icon/star.svg" alt="" />
+                  <img src="assets/icon/star.svg" alt="" />
+                  <img src="assets/icon/star.svg" alt="" />
+                  <img src="assets/icon/star.svg" alt="" />
+                  <img src="assets/icon/star.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div>Great platform</div>
+            <div class="opinions">
+              <img src="assets/icon/Quotation-mark.svg" alt="" />
+              <div class="comment">
+                I'm impressed with the quality of the instructors on this
+                education platform. They are knowledgeable and passionate about
+                their subjects, and their teaching style keeps me engaged and
+                motivated to learn.
+              </div>
+            </div>
+            <div class="user">
+              <img src="assets/images/user-3.webp" alt="" />
+              <div class="name-rate">
+                <div class="name">dana</div>
+                <div class="rate">
+                  <img src="assets/icon/star.svg" alt="" />
+                  <img src="assets/icon/star.svg" alt="" />
+                  <img src="assets/icon/star.svg" alt="" />
+                  <img src="assets/icon/star.svg" alt="" />
+                  <img src="assets/icon/star-2.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ------------------*** Courses *** ------------------ -->
+      <section class="courses">
+        <div>Popular courses for you</div>
+        <div>
+          <div class="sub-title">
+            Browse top class courses by browsing our category which will be more
+            easy for you.
+          </div>
+          <a href="pages/courses.html" class="outline-btn inside-btn"
+            >See All Courses</a
+          >
+        </div>
+        <div class="cards">
+          <div class="one-card">
+            <img src="assets/images/course-1.png" alt="" />
+            <a href="#"> Web Design</a>
+            <p>Learn Web Design in 30 days</p>
+            <div class="bottom-card">
+              <div class="users">
+                <img src="assets/icon/users.svg" alt="" />
+                <div>500k+</div>
+              </div>
+              <div class="rating">
+                <img src="assets/icon/star-2.svg" alt="" />
+                <div>500k+</div>
+              </div>
+              <div class="price">
+                <img src="assets/icon/circle-dollar.svg" alt="" />
+                <div>500k+</div>
+              </div>
+            </div>
+          </div>
+          <div class="one-card">
+            <img src="assets/images/nodejs.png" alt="" />
+            <a href="#"> Node js</a>
+            <p>Learn node js in 20 days</p>
+            <div class="bottom-card">
+              <div class="users">
+                <img src="assets/icon/users.svg" alt="" />
+                <div>500k+</div>
+              </div>
+              <div class="rating">
+                <img src="assets/icon/star-2.svg" alt="" />
+                <div>500k+</div>
+              </div>
+              <div class="price">
+                <img src="assets/icon/circle-dollar.svg" alt="" />
+                <div>500k+</div>
+              </div>
+            </div>
+          </div>
+          <div class="one-card">
+            <img src="assets/images/JavaScript.png" alt="" />
+            <a href="#"> JavaScript</a>
+            <p>Learn JavaScript in 30 days</p>
+            <div class="bottom-card">
+              <div class="users">
+                <img src="assets/icon/users.svg" alt="" />
+                <div>500k+</div>
+              </div>
+              <div class="rating">
+                <img src="assets/icon/star-2.svg" alt="" />
+                <div>500k+</div>
+              </div>
+              <div class="price">
+                <img src="assets/icon/circle-dollar.svg" alt="" />
+                <div>500k+</div>
+              </div>
+            </div>
+          </div>
+          <div class="one-card">
+            <img src="assets/images/mongodb.jpg" alt="" />
+            <a href="#"> Database</a>
+            <p>Learn MongoDB in 20 days</p>
+            <div class="bottom-card">
+              <div class="users">
+                <img src="assets/icon/users.svg" alt="" />
+                <div>500k+</div>
+              </div>
+              <div class="rating">
+                <img src="assets/icon/star-2.svg" alt="" />
+                <div>500k+</div>
+              </div>
+              <div class="price">
+                <img src="assets/icon/circle-dollar.svg" alt="" />
+                <div>500k+</div>
+              </div>
+            </div>
+          </div>
+          <div class="one-card">
+            <img src="assets/images/python.png" alt="" />
+            <a href="#"> Python</a>
+            <p>Learn python in 30 days</p>
+            <div class="bottom-card">
+              <div class="users">
+                <img src="assets/icon/users.svg" alt="" />
+                <div>500k+</div>
+              </div>
+              <div class="rating">
+                <img src="assets/icon/star-2.svg" alt="" />
+                <div>500k+</div>
+              </div>
+              <div class="price">
+                <img src="assets/icon/circle-dollar.svg" alt="" />
+                <div>500k+</div>
+              </div>
+            </div>
+          </div>
+          <div class="one-card">
+            <img src="assets/images/UX-design-courses.jpg" alt="" />
+            <a href="#"> UX Design</a>
+            <p>Learn UX Design in 15 days</p>
+            <div class="bottom-card">
+              <div class="users">
+                <img src="assets/icon/users.svg" alt="" />
+                <div>500k+</div>
+              </div>
+              <div class="rating">
+                <img src="assets/icon/star-2.svg" alt="" />
+                <div>500k+</div>
+              </div>
+              <div class="price">
+                <img src="assets/icon/circle-dollar.svg" alt="" />
+                <div>500k+</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="outside-btn">
+          <a href="pages/courses.html" class="outline-btn">See All Courses</a>
+        </div>
+      </section>
+      <!-- ------------------*** Newsletter *** ------------------ -->
+      <section class="newsletter">
+        <div>Subscribe Newsletter</div>
+        <div class="sub-title">
+          You learn today and earn tomorrow. The roots of education are bitter
+          but the fruits are sweet.
+        </div>
+        <div class="form-news">
+          <form action="">
+            <input type="text" placeholder="Enter your Email Address" />
+            <input type="submit" value="Subscribe" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <!-- ------------------*** Footer *** ------------------ -->
+
+    <section class="section-footer">
+      <footer class="top">
+        <div class="logo-footer">
+          <img src="assets/icon/logo.svg" />
+          <div class="description">
+            Nullam nisi magna. tempor vita nulla sod. portals sodaloss tortor
+            Aonoan at sodaloss portals.
+          </div>
+          <div>Follow us</div>
+          <div class="social-media">
+            <img src="assets/icon/facebook.svg" alt="facebook" />
+            <img src="assets/icon/github.svg" alt="facebook" />
+            <img src="assets/icon/discord.svg" alt="facebook" />
+            <img src="assets/icon/linkedin.svg" alt="facebook" />
+          </div>
+        </div>
+
+        <div class="my-links">
+          <div>
+            <h2>Links</h2>
+            <a href="#">Home</a>
+            <a href="#">Courses</a>
+            <a href="#">About us</a>
+            <a href="#">Career</a>
+          </div>
+          <div>
+            <h2>Community</h2>
+            <a href="#">Go Premium</a>
+            <a href="#">Team Plans</a>
+            <a href="#">Refer a Friend</a>
+          </div>
+          <div>
+            <h2>Resources</h2>
+            <a href="#">Latest Updates</a>
+            <a href="#">Updates Newsletter</a>
+            <a href="#">Flow Management</a>
+          </div>
+          <div>
+            <h2>Support</h2>
+            <a href="#">FAQ’s</a>
+            <a href="#">Help</a>
+            <a href="#">Contact us</a>
+          </div>
+        </div>
+      </footer>
+      <footer class="bottom">
+        <div class="legal">
+          <div>&copy;Copyright B-Station 2023, All right Reserved</div>
+          <div>
+            <a href="#"> License </a>
+            <a href="#"> Terms </a>
+            <a href="#"> Privacy </a>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <script src="javascript/script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
